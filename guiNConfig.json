@@ -1,0 +1,153 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 2,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "34.97.30.203",
+      "port": 43842,
+      "id": "35a37aab-7307-4839-869f-4ef5bec68908",
+      "alterId": 233,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "大阪_34.97.30.203",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "configType": 1,
+      "testResult": "6.56 M/s",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "34.64.181.76",
+      "port": 55864,
+      "id": "ba525022-31c2-4355-911b-d46185285d8d",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "首尔_34.64.181.76",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "configType": 1,
+      "testResult": "3.65 M/s",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "35.229.145.224",
+      "port": 57001,
+      "id": "671d0bb4-a078-4599-a4d5-f1858f6e1712",
+      "alterId": 233,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "台湾_35.229.145.224",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "configType": 1,
+      "testResult": "8.96 M/s",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "34.96.205.35",
+      "port": 54617,
+      "id": "12866407-1983-4411-bf16-de752c02a4f9",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "香港_34.96.205.35",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "configType": 1,
+      "testResult": "0.54 M/s",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "35.198.196.97",
+      "port": 63502,
+      "id": "5bc24384-89c6-44d4-b377-8d67d180450e",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "新加坡_35.198.196.97",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "false",
+      "configType": 1,
+      "testResult": "0 M/s",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "listenerType": 2,
+  "speedTestUrl": "http://speedtest-sgp1.digitalocean.com/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "defAllowInsecure": false,
+  "subItem": [
+    {
+      "id": "f11c5656-d660-4461-9c11-010214c8f6fb",
+      "remarks": "remarks",
+      "url": "https://bulink.xyz/api/subscribe/?token=tvxtn&sub_type=vmess",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainSize": "237, 39",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 80,
+      "remarks": 402,
+      "address": 128,
+      "port": 50,
+      "security": 90,
+      "network": 70,
+      "subRemarks": 50,
+      "testResult": 179
+    }
+  },
+  "userPacRule": []
+}
